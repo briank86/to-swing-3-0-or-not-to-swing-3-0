@@ -582,14 +582,12 @@ df <- read.csv('C:\\Users\\brkea\\OneDrive\\Baseball Projects\\Run Value by Coun
 print(df)
 
 
-#do like a subtraction on how it looks for 3-1 vs 3-0 or something
-#do something with run values for the swing v not swing
-#take percent of times 3-0 ends up as a 3-1 or 4-0 if don't swing and same for swing then figure out what the run values will be bad on the percentages? 
+#wOBA and OPS of 3-0 
 wOBA(x3b0s2022, x3b0s2021, x3b0s2019)
 print((ops(x3b0s2022) + ops(x3b0s2021) + ops(x3b0s2019))/3)
 
 
-#wOBA and wRAA in 3-0 counts swining
+#wOBA, wRAA, and OPS in 3-0 counts swinging
 swing302019 <- x3b0s2019
 swing302019 <- swing302019[(swing302019$description %in% c('foul', 'hit_into_play', 'swinging_strike')),]
 swing302021 <- x3b0s2021
@@ -602,7 +600,7 @@ wRAA(swing302022, swing302021, swing302019)
 print((ops(swing302019) + ops(swing302021) + ops(swing302019))/3)
 
 
-#wOBA and wRAA in 3-0 counts taking
+#wOBA, wRAA, and OPS in 3-0 counts taking
 take302019 <- x3b0s2019
 take302019 <- take302019[!(take302019$description %in% c('foul', 'hit_into_play', 'swinging_strike')),]
 take302021 <- x3b0s2021
@@ -669,10 +667,6 @@ print(percentstrike)
 
 
 
-#maybe compare fastball to non fastballs in other counts? compare walk percentage?
-
-
-#percentage of hits/wOBA in a 3-1 count vs 3-0 - do for whole set and for just swinging
 
 #wOBA of swinging in a 3-1 count 
 swing312019 <- x3b1s2019
@@ -687,7 +681,7 @@ wOBA(swing312022, swing312021, swing312019)
 
 
 
-#break down by pitcher type - maybe will keep
+#break down by pitcher type 
 #4 seam fastball working mostly in the top of zone, slider, curveball, change 
 #Justin verlander, Dylan Cease, Gerrit Cole, Hunter Brown, Tyler Glasnow, Logan Gilbert
 #434378, 656302, 543037, 686613, 607192, 669302
