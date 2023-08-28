@@ -49,6 +49,7 @@ X count start strike  ball wRAA.PA Run.Value.of.Strike Run.Value.of.Ball
 10  3-0 0.540  0.470 0.689   0.191              -0.057             0.124
 11  3-1 0.470  0.373 0.689   0.134              -0.081             0.181
 12  3-2 0.373  0.000 0.689   0.053              -0.309             0.262
+(Formatted in the code part of the README)
 
 So interestingly enough in wOBA there is a pretty significant difference between taking on 3-0 vs. not taking. In this case, wOBA supports taking. However, OPS 
 actually favors swinging on 3-0 albeit by a small amount. The reason for this comes from why wOBA was created in the first place. OPS undervalues OBP and therefore
