@@ -55,7 +55,7 @@ X count start strike  ball wRAA.PA Run.Value.of.Strike Run.Value.of.Ball
 So interestingly enough in wOBA there is a pretty significant difference between taking on 3-0 vs. not taking. In this case, wOBA supports taking. However, OPS 
 actually favors swinging on 3-0 albeit by a small amount. The reason for this comes from why wOBA was created in the first place. OPS undervalues OBP and therefore
 undervalues walks. wOBA by contrast attempts to treat every hit and walk by its actual worth and therefore more accurately evaluates walks compared to OPS. Since
-the main result of a 3-0 count is going to be a walk I believe that wOBA is a more accurate evaluation of whether you should swing or not. Also if you look at the
+the main offensive result of a 3-0 count is going to be a walk I believe that wOBA is a more accurate evaluation of whether you should swing or not. Also if you look at the
 run-value grid the wOBA of swinging in a 3-0 count is about the same as the start wOBA for a 3-1 count. This means you're basically giving yourself the same amount
-of success as an extra strike if you swing. 
+of success as an extra strike if you swing.
 
