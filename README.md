@@ -1,7 +1,7 @@
 # to-swing-3-0-or-not-to-swing-3-0
 wOBA, wRAA, and ops of swinging or taking on 3-0
 
-I've long had a discussion with people about whether the general don't swing on 3-0 has any analytic validity. It's something I've been taught since Little
+I've long had discussions with people about whether the general don't swing on 3-0 has any analytic validity. It's something I've been taught since Little
 League but I've never seen anyone test it out. 
 So I decided to take a look using wOBA, wRAA, and just for fun OPS. Since wOBA tries to capture the same thing as OPS I thought it would be interesting to compare
 them. I used Fangraphs data for the value of a single, double, etc. I took my data from the last three full seasons (2019, 2021, 2022). 
